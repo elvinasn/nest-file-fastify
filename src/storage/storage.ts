@@ -1,5 +1,5 @@
+import { MultipartFile } from "@fastify/multipart";
 import { FastifyRequest } from "fastify";
-import { MultipartFile } from "../multipart/file";
 
 export interface StorageFile {
   size: number;
